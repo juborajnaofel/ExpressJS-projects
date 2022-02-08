@@ -23,20 +23,25 @@ app.get('/priority', (req, res) => {
 // Id is set to 123
 app.get('/user/:Id', function (req, res) {
     res.send("User id " + req.params.Id);
+
+});
+
+
+//Query params
 // GET /primeuser?Id=123
 // Id is set to 123
+app.get('/primeuser', function (req, res) {
+    res.send("Id is set to " + req.query.Id);
+});
+
+
+//Query params multiple Query Params
 // GET /admin-info?Id=123&name=JN
 // Id set to 123 and name set to JN
 app.get('/admin-info', function (req, res){
 
     res.send("ID: "+ req.query.Id+", Name: "+req.query.name);
 });
-
-
-
-
-
-//rest api endpoints
 
 
 
