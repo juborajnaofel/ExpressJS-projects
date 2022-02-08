@@ -14,7 +14,7 @@
 
 <h3>start 'token-generator-app' at port 4000</h3>
 
-1. cd token-token-generator-app
+1. cd token-generator-app
 2. npm start
 
 <h3>create a separate terminal and  start 'api-app' at port 3000.</h3>
