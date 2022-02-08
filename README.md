@@ -1,5 +1,17 @@
 # ExpressJS-projects
- 
+<h3>This project is created by I.E.U. Juboraj Naofel. Technologies used,</h3>
+
+1. jwt 
+2. express js
+3. node js
+4. mysql
+
+<h3>Config database here : </h3>
+
+- api-app/routes/db.js
+
+
+
 <h3>start 'token-generator-app' at port 4000</h3>
 
 1. cd token-token-generator-app
@@ -37,3 +49,6 @@ body>json:
 
 auth> bearer:
 the token you have copied will be pasted
+
+
+
