@@ -42,9 +42,9 @@
 2. make a request to this endpoint  "POST localhost:3000/users" to add a user where,
 body>json:
  {
-    "fname": "juborasasaj",
-    "lname": "naofesasasal",
-    "cgpa": 3.84
+    "fname": "SampleFirstname",
+    "lname": "Sample LastName",
+    "cgpa": 4.00
  }
 
 auth> bearer:
